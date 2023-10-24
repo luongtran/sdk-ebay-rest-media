@@ -4,7 +4,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media\API;
+namespace LT\SDKs\ebay\rest\media\API;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use macropage\SDKs\ebay\rest\media\ApiException;
-use macropage\SDKs\ebay\rest\media\Configuration;
-use macropage\SDKs\ebay\rest\media\HeaderSelector;
-use macropage\SDKs\ebay\rest\media\ObjectSerializer;
+use LT\SDKs\ebay\rest\media\ApiException;
+use LT\SDKs\ebay\rest\media\Configuration;
+use LT\SDKs\ebay\rest\media\HeaderSelector;
+use LT\SDKs\ebay\rest\media\ObjectSerializer;
 
 /**
  * VideoApi Class Doc Comment
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,9 +118,9 @@ class VideoApi
     /**
      * Operation createVideo
      *
-     * @param  \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest $body body (optional)
+     * @param  \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest $body body (optional)
      *
-     * @throws \macropage\SDKs\ebay\rest\media\ApiException on non-2xx response
+     * @throws \LT\SDKs\ebay\rest\media\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -132,9 +132,9 @@ class VideoApi
     /**
      * Operation createVideoWithHttpInfo
      *
-     * @param  \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
+     * @param  \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
      *
-     * @throws \macropage\SDKs\ebay\rest\media\ApiException on non-2xx response
+     * @throws \LT\SDKs\ebay\rest\media\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -189,7 +189,7 @@ class VideoApi
     /**
      * Operation createVideoAsync
      *
-     * @param  \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
+     * @param  \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -207,7 +207,7 @@ class VideoApi
     /**
      * Operation createVideoAsyncWithHttpInfo
      *
-     * @param  \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
+     * @param  \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -243,7 +243,7 @@ class VideoApi
     /**
      * Create request for operation 'createVideo'
      *
-     * @param  \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
+     * @param  \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -334,9 +334,9 @@ class VideoApi
      *
      * @param  string $videoId The &lt;b&gt;video ID&lt;/b&gt; for the video to be retrieved. (required)
      *
-     * @throws \macropage\SDKs\ebay\rest\media\ApiException on non-2xx response
+     * @throws \LT\SDKs\ebay\rest\media\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \macropage\SDKs\ebay\rest\media\Model\Video
+     * @return \LT\SDKs\ebay\rest\media\Model\Video
      */
     public function getVideo($videoId)
     {
@@ -349,9 +349,9 @@ class VideoApi
      *
      * @param  string $videoId The &lt;b&gt;video ID&lt;/b&gt; for the video to be retrieved. (required)
      *
-     * @throws \macropage\SDKs\ebay\rest\media\ApiException on non-2xx response
+     * @throws \LT\SDKs\ebay\rest\media\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \macropage\SDKs\ebay\rest\media\Model\Video, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \LT\SDKs\ebay\rest\media\Model\Video, HTTP status code, HTTP response headers (array of strings)
      */
     public function getVideoWithHttpInfo($videoId)
     {
@@ -394,20 +394,20 @@ class VideoApi
 
             switch($statusCode) {
                 case 200:
-                    if ('\macropage\SDKs\ebay\rest\media\Model\Video' === '\SplFileObject') {
+                    if ('\LT\SDKs\ebay\rest\media\Model\Video' === '\SplFileObject') {
                         $content = $response->getBody(); //stream goes to serializer
                     } else {
                         $content = (string) $response->getBody();
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\macropage\SDKs\ebay\rest\media\Model\Video', []),
+                        ObjectSerializer::deserialize($content, '\LT\SDKs\ebay\rest\media\Model\Video', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\macropage\SDKs\ebay\rest\media\Model\Video';
+            $returnType = '\LT\SDKs\ebay\rest\media\Model\Video';
             if ($returnType === '\SplFileObject') {
                 $content = $response->getBody(); //stream goes to serializer
             } else {
@@ -425,7 +425,7 @@ class VideoApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\macropage\SDKs\ebay\rest\media\Model\Video',
+                        '\LT\SDKs\ebay\rest\media\Model\Video',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -463,7 +463,7 @@ class VideoApi
      */
     public function getVideoAsyncWithHttpInfo($videoId)
     {
-        $returnType = '\macropage\SDKs\ebay\rest\media\Model\Video';
+        $returnType = '\LT\SDKs\ebay\rest\media\Model\Video';
         $request = $this->getVideoRequest($videoId);
 
         return $this->client
@@ -605,7 +605,7 @@ class VideoApi
      * @param  string $contentRange Use this header to specify the content range for the upload. The Content-Range should be of the following bytes ((?:[0-9]+-[0-9]+)|\\\\\\\\*)/([0-9]+|\\\\\\\\*) pattern.&lt;br /&gt;&lt;br /&gt;&lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;span style&#x3D;\&quot;color:#004680\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt; This header is optional and is only required for &lt;i&gt;resumable&lt;/i&gt; uploads (when an upload is interrupted and must be resumed from a certain point).&lt;/span&gt; (optional)
      * @param  object $body The request payload for this method is the input stream for the video source. The input source must be an .mp4 file of the type MPEG-4 Part 10 or Advanced Video Coding (MPEG-4 AVC). (optional)
      *
-     * @throws \macropage\SDKs\ebay\rest\media\ApiException on non-2xx response
+     * @throws \LT\SDKs\ebay\rest\media\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -623,7 +623,7 @@ class VideoApi
      * @param  string $contentRange Use this header to specify the content range for the upload. The Content-Range should be of the following bytes ((?:[0-9]+-[0-9]+)|\\\\\\\\*)/([0-9]+|\\\\\\\\*) pattern.&lt;br /&gt;&lt;br /&gt;&lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;span style&#x3D;\&quot;color:#004680\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt; This header is optional and is only required for &lt;i&gt;resumable&lt;/i&gt; uploads (when an upload is interrupted and must be resumed from a certain point).&lt;/span&gt; (optional)
      * @param  object $body The request payload for this method is the input stream for the video source. The input source must be an .mp4 file of the type MPEG-4 Part 10 or Advanced Video Coding (MPEG-4 AVC). (optional)
      *
-     * @throws \macropage\SDKs\ebay\rest\media\ApiException on non-2xx response
+     * @throws \LT\SDKs\ebay\rest\media\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

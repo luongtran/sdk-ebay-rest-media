@@ -4,7 +4,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media;
+namespace LT\SDKs\ebay\rest\media;
 
 use \Exception;
 
@@ -33,7 +33,7 @@ use \Exception;
  * ApiException Class Doc Comment
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */

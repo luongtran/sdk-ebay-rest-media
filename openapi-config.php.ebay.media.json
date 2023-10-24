@@ -3,7 +3,7 @@
   "composerVendorName": "macropage",
   "composerProjectName": "sdk-ebay-rest-media",
   "artifactVersion": "2.3.2",
-  "invokerPackage": "macropage\\SDKs\\ebay\\rest\\media",
+  "invokerPackage": "LT\\SDKs\\ebay\\rest\\media",
   "modelPackage": "Model",
   "apiPackage": "API",
   "variableNamingConvention": "camelCase",

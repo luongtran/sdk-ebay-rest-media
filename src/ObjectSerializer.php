@@ -5,7 +5,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,15 +26,15 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media;
+namespace LT\SDKs\ebay\rest\media;
 
-use macropage\SDKs\ebay\rest\media\Model\ModelInterface;
+use LT\SDKs\ebay\rest\media\Model\ModelInterface;
 
 /**
  * ObjectSerializer Class Doc Comment
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -386,7 +386,7 @@ class ObjectSerializer
             // If a discriminator is defined and points to a valid subclass, use it.
             $discriminator = $class::DISCRIMINATOR;
             if (!empty($discriminator) && isset($data->{$discriminator}) && is_string($data->{$discriminator})) {
-                $subclass = '\macropage\SDKs\ebay\rest\media\Model\\' . $data->{$discriminator};
+                $subclass = '\LT\SDKs\ebay\rest\media\Model\\' . $data->{$discriminator};
                 if (is_subclass_of($subclass, $class)) {
                     $class = $subclass;
                 }

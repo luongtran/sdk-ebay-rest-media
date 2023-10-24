@@ -5,7 +5,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media\Model;
+namespace LT\SDKs\ebay\rest\media\Model;
 
 use \ArrayAccess;
-use \macropage\SDKs\ebay\rest\media\ObjectSerializer;
+use \LT\SDKs\ebay\rest\media\ObjectSerializer;
 
 /**
  * Play Class Doc Comment
  *
  * @category Class
  * @description The two streaming video URLs available for a successfully uploaded video with a status of &lt;code&gt;LIVE&lt;/code&gt;. The supported streaming video protocols are DASH (Dynamic Adaptive Streaming over HTTP) and HLS (HTTP Live Streaming).
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>

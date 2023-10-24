@@ -4,7 +4,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,14 +25,14 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media;
+namespace LT\SDKs\ebay\rest\media;
 
 /**
  * Configuration Class Doc Comment
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -395,7 +395,7 @@ class Configuration
      */
     public static function toDebugReport()
     {
-        $report  = 'PHP SDK (macropage\SDKs\ebay\rest\media) Debug Report:' . PHP_EOL;
+        $report  = 'PHP SDK (LT\SDKs\ebay\rest\media) Debug Report:' . PHP_EOL;
         $report .= '    OS: ' . php_uname() . PHP_EOL;
         $report .= '    PHP Version: ' . PHP_VERSION . PHP_EOL;
         $report .= '    The version of the OpenAPI document: v1_beta.1.0' . PHP_EOL;

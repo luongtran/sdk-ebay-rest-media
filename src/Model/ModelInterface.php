@@ -5,7 +5,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media\Model
+ * @package  LT\SDKs\ebay\rest\media\Model
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,12 +26,12 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media\Model;
+namespace LT\SDKs\ebay\rest\media\Model;
 
 /**
  * Interface abstracting model access.
  *
- * @package macropage\SDKs\ebay\rest\media\Model
+ * @package LT\SDKs\ebay\rest\media\Model
  * @author  OpenAPI Generator team
  */
 interface ModelInterface

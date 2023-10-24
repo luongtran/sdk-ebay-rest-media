@@ -5,7 +5,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media\Model;
+namespace LT\SDKs\ebay\rest\media\Model;
 
 use \ArrayAccess;
-use \macropage\SDKs\ebay\rest\media\ObjectSerializer;
+use \LT\SDKs\ebay\rest\media\ObjectSerializer;
 
 /**
  * Video Class Doc Comment
  *
  * @category Class
  * @description A response field that retrieves all the metadata for the video, including its &lt;b&gt;title&lt;/b&gt;, &lt;b&gt;classification&lt;/b&gt;, &lt;b&gt;size&lt;/b&gt;, &lt;b&gt;description&lt;/b&gt;, &lt;b&gt;status&lt;/b&gt;, &lt;b&gt;status message&lt;/b&gt; (if any), and &lt;b&gt;expiration date&lt;/b&gt;.
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,12 +63,12 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
         'classification' => 'string[]',
         'description' => 'string',
         'expirationDate' => 'string',
-        'moderation' => '\macropage\SDKs\ebay\rest\media\Model\Moderation',
-        'playLists' => '\macropage\SDKs\ebay\rest\media\Model\Play[]',
+        'moderation' => '\LT\SDKs\ebay\rest\media\Model\Moderation',
+        'playLists' => '\LT\SDKs\ebay\rest\media\Model\Play[]',
         'size' => 'int',
         'status' => 'string',
         'statusMessage' => 'string',
-        'thumbnail' => '\macropage\SDKs\ebay\rest\media\Model\Image',
+        'thumbnail' => '\LT\SDKs\ebay\rest\media\Model\Image',
         'title' => 'string',
         'videoId' => 'string'
     ];
@@ -341,7 +341,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets moderation
      *
-     * @return \macropage\SDKs\ebay\rest\media\Model\Moderation|null
+     * @return \LT\SDKs\ebay\rest\media\Model\Moderation|null
      */
     public function getModeration()
     {
@@ -351,7 +351,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets moderation
      *
-     * @param \macropage\SDKs\ebay\rest\media\Model\Moderation|null $moderation moderation
+     * @param \LT\SDKs\ebay\rest\media\Model\Moderation|null $moderation moderation
      *
      * @return self
      */
@@ -365,7 +365,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets playLists
      *
-     * @return \macropage\SDKs\ebay\rest\media\Model\Play[]|null
+     * @return \LT\SDKs\ebay\rest\media\Model\Play[]|null
      */
     public function getPlayLists()
     {
@@ -375,7 +375,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets playLists
      *
-     * @param \macropage\SDKs\ebay\rest\media\Model\Play[]|null $playLists The playlist created for the uploaded video, which provides the streaming video URLs to play the video. The supported streaming video protocols are DASH (Dynamic Adaptive Streaming over HTTP) and HLS (HTTP Live Streaming). The playlist will only be generated if a video is successfully uploaded with a status of <code>LIVE</code>.
+     * @param \LT\SDKs\ebay\rest\media\Model\Play[]|null $playLists The playlist created for the uploaded video, which provides the streaming video URLs to play the video. The supported streaming video protocols are DASH (Dynamic Adaptive Streaming over HTTP) and HLS (HTTP Live Streaming). The playlist will only be generated if a video is successfully uploaded with a status of <code>LIVE</code>.
      *
      * @return self
      */
@@ -461,7 +461,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets thumbnail
      *
-     * @return \macropage\SDKs\ebay\rest\media\Model\Image|null
+     * @return \LT\SDKs\ebay\rest\media\Model\Image|null
      */
     public function getThumbnail()
     {
@@ -471,7 +471,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets thumbnail
      *
-     * @param \macropage\SDKs\ebay\rest\media\Model\Image|null $thumbnail thumbnail
+     * @param \LT\SDKs\ebay\rest\media\Model\Image|null $thumbnail thumbnail
      *
      * @return self
      */

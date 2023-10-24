@@ -1,4 +1,4 @@
-# macropage\SDKs\ebay\rest\media\VideoApi
+# LT\SDKs\ebay\rest\media\VideoApi
 
 All URIs are relative to https://apim.ebay.com/commerce/media/v1_beta.
 
@@ -27,16 +27,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: Authorization Code
-$config = macropage\SDKs\ebay\rest\media\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = LT\SDKs\ebay\rest\media\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new macropage\SDKs\ebay\rest\media\Api\VideoApi(
+$apiInstance = new LT\SDKs\ebay\rest\media\Api\VideoApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest(); // \macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest
+$body = new \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest(); // \LT\SDKs\ebay\rest\media\Model\CreateVideoRequest
 
 try {
     $apiInstance->createVideo($body);
@@ -49,7 +49,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\macropage\SDKs\ebay\rest\media\Model\CreateVideoRequest**](../Model/CreateVideoRequest.md)|  | [optional]
+ **body** | [**\LT\SDKs\ebay\rest\media\Model\CreateVideoRequest**](../Model/CreateVideoRequest.md)|  | [optional]
 
 ### Return type
 
@@ -71,7 +71,7 @@ void (empty response body)
 ## `getVideo()`
 
 ```php
-getVideo($videoId): \macropage\SDKs\ebay\rest\media\Model\Video
+getVideo($videoId): \LT\SDKs\ebay\rest\media\Model\Video
 ```
 
 
@@ -86,10 +86,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: Authorization Code
-$config = macropage\SDKs\ebay\rest\media\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = LT\SDKs\ebay\rest\media\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new macropage\SDKs\ebay\rest\media\Api\VideoApi(
+$apiInstance = new LT\SDKs\ebay\rest\media\Api\VideoApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\macropage\SDKs\ebay\rest\media\Model\Video**](../Model/Video.md)
+[**\LT\SDKs\ebay\rest\media\Model\Video**](../Model/Video.md)
 
 ### Authorization
 
@@ -146,10 +146,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: Authorization Code
-$config = macropage\SDKs\ebay\rest\media\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = LT\SDKs\ebay\rest\media\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new macropage\SDKs\ebay\rest\media\Api\VideoApi(
+$apiInstance = new LT\SDKs\ebay\rest\media\Api\VideoApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),

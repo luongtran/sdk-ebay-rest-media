@@ -5,7 +5,7 @@
  * PHP version 7.3
  *
  * @category Class
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace macropage\SDKs\ebay\rest\media\Model;
+namespace LT\SDKs\ebay\rest\media\Model;
 
 use \ArrayAccess;
-use \macropage\SDKs\ebay\rest\media\ObjectSerializer;
+use \LT\SDKs\ebay\rest\media\ObjectSerializer;
 
 /**
  * CreateVideoRequest Class Doc Comment
  *
  * @category Class
  * @description The request to create a video, which must contain the video&#39;s &lt;b&gt;title&lt;/b&gt;, &lt;b&gt;size&lt;/b&gt;, and &lt;b&gt;classification&lt;/b&gt;. &lt;b&gt;Description&lt;/b&gt; is an optional field when creating videos.
- * @package  macropage\SDKs\ebay\rest\media
+ * @package  LT\SDKs\ebay\rest\media
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
