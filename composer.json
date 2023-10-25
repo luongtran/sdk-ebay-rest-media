@@ -32,9 +32,9 @@
         "friendsofphp/php-cs-fixer": "^2.12"
     },
     "autoload": {
-        "psr-4": { "macropage\\SDKs\\ebay\\rest\\media\\" : "src/" }
+        "psr-4": { "LT\\SDKs\\ebay\\rest\\media\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "macropage\\SDKs\\ebay\\rest\\media\\Test\\" : "test/" }
+        "psr-4": { "LT\\SDKs\\ebay\\rest\\media\\Test\\" : "test/" }
     }
 }
